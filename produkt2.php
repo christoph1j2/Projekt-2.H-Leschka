@@ -10,5 +10,46 @@
     <title>Produkt2</title>
 </head>
 <body>
-    
+    <header>
+        <img>
+        <h1>Sklad</h1>
+        <?php
+            $date = date('d-m-Y');
+            echo "<p class='date'>Dnešní datum: $date</p>"
+        ?>
+    </header>
+    <nav>
+        <a href="index.php">Home</a>
+        <a href="produkt1.php">produkt1</a>
+        <a href="produkt2.php">produkt2</a>
+        <a href="produkt3.php">produkt3</a>
+        <a href="produkt4.php">produkt4</a>
+        <!-- DOPLNIT PRODUKTY! -->
+    </nav>
+    <main>
+        <section>
+            <div class="container">
+            <article>
+                <p>popis</p>
+            </article>
+            <article>
+                <p>popis</p>
+            </article>
+            </div>
+        </section>
+        <section class="forms">
+            <!-- select + print (2 prvky formuláře) -->
+            <form>
+
+            </form>
+            <!-- tabulka s výpisem -->
+            <!-- TODO -->
+        </section>
+    </main>
+    <footer>
+        <?php
+            echo "<p class='cpr'>©Ernst Christoph Leschka</p>";
+            echo "<p class='date'>Dnešní datum: $date</p>";
+        ?>
+    </footer>
 </body>

@@ -19,7 +19,7 @@
         ?>
     </header>
     <nav>
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <a href="produkt1.php">produkt1</a>
         <a href="produkt2.php">produkt2</a>
         <a href="produkt3.php">produkt3</a>
@@ -88,7 +88,7 @@
             </div>
         </section>
         <!-- FORMS UVOD -->
-        <section>
+        <section class="forms">
             <!-- hodnocení -->
             <form>
 
