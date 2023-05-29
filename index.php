@@ -7,11 +7,12 @@
     <meta name="author" content="Ernst Christoph Leschka">
     <meta name="keywords" content="home,projekt,sklad,uvod">
     <meta name="description" content="Úvodní stránka pro webovou aplikaci neexistujícího skladu.">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <img>
+        <img src="" alt="logo">
         <h1>Sklad</h1>
         <?php
             $date = date('d-m-Y');
@@ -19,11 +20,13 @@
         ?>
     </header>
     <nav>
-        <a href="index.php">Home</a>
-        <a href="produkt1.php">produkt1</a>
-        <a href="produkt2.php">produkt2</a>
-        <a href="produkt3.php">produkt3</a>
-        <a href="produkt4.php">produkt4</a>
+        <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="produkt1.php">produkt1</a></li>
+        <li><a href="produkt2.php">produkt2</a></li>
+        <li><a href="produkt3.php">produkt3</a></li>
+        <li><a href="produkt4.php">produkt4</a></li>
+        </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
@@ -31,23 +34,24 @@
             <div class="container">
                 <article>
                     <h2>Co</h2>
-                    <p>popis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
                 </article>
                 <article>
                     <h2>Jak</h2>
-                    <p>popis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
                 </article>
                 <article>
                     <h2>Proč</h2>
-                    <p>popis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
                 </article>
             </div>
+        <hr>
         </section>
         <!-- PRODUKT1 -->
         <section>
             <div class="container">
             <article>
-                <p>popis</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
             </article>
             <article>
                 <img src="" alt="produkt1">
@@ -61,7 +65,7 @@
                 <img src="" alt="produkt2">
             </article>
             <article>
-                <p>popis</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
             </article>
             </div>
         </section>
@@ -69,7 +73,7 @@
         <section>
             <div class="container">
             <article>
-                <p>popis</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
             </article>
             <article>
                 <img src="" alt="produkt3">
@@ -83,7 +87,7 @@
                 <img src="" alt="produkt4">
             </article>
             <article>
-                <p>popis</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sapien. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Sed convallis magna eu sem. Integer pellentesque quam vel velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean id metus id velit ullamcorper pulvinar. Phasellus et lorem id felis nonummy placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam faucibus mi quis velit. Etiam neque.</p>
             </article>
             </div>
         </section>

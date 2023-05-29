@@ -7,11 +7,12 @@
     <meta name="author" content="Ernst Christoph Leschka">
     <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="description" content="Stránka jednoho z produktů pro webovou aplikaci neexistujícího skladu.">
+    <link rel="stylesheet" href="style.css">
     <title>Produkt2</title>
 </head>
 <body>
     <header>
-        <img>
+        <img src="" alt="logo">
         <h1>Sklad</h1>
         <?php
             $date = date('d-m-Y');
