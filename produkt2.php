@@ -7,7 +7,7 @@
     <meta name="author" content="Ernst Christoph Leschka">
     <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="description" content="Stránka jednoho z produktů pro webovou aplikaci neexistujícího skladu.">
-    <title>Home</title>
+    <title>Produkt2</title>
 </head>
 <body>
     

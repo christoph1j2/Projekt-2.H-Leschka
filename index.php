@@ -26,10 +26,82 @@
         <a href="produkt4.php">produkt4</a>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
-    <main></main>
+    <main>
+        <section>
+            <div class="container">
+                <article>
+                    <h2>Co</h2>
+                    <p>popis</p>
+                </article>
+                <article>
+                    <h2>Jak</h2>
+                    <p>popis</p>
+                </article>
+                <article>
+                    <h2>Proč</h2>
+                    <p>popis</p>
+                </article>
+            </div>
+        </section>
+        <!-- PRODUKT1 -->
+        <section>
+            <div class="container">
+            <article>
+                <p>popis</p>
+            </article>
+            <article>
+                <img src="" alt="produkt1">
+            </article>
+            </div>
+        </section>
+        <!-- PRODUKT2 -->
+        <section>
+            <div class="container">
+            <article>
+                <img src="" alt="produkt2">
+            </article>
+            <article>
+                <p>popis</p>
+            </article>
+            </div>
+        </section>
+        <!-- PRODUKT3 -->
+        <section>
+            <div class="container">
+            <article>
+                <p>popis</p>
+            </article>
+            <article>
+                <img src="" alt="produkt3">
+            </article>
+            </div>
+        </section>
+        <!-- PRODUKT4 -->
+        <section>
+            <div class="container">
+            <article>
+                <img src="" alt="produkt4">
+            </article>
+            <article>
+                <p>popis</p>
+            </article>
+            </div>
+        </section>
+        <!-- FORMS UVOD -->
+        <section>
+            <!-- hodnocení -->
+            <form>
+
+            </form>
+            <!-- anketa -->
+            <form>
+
+            </form>
+        </section>
+    </main>
     <footer>
         <?php
-            echo "<h6 class='cpr'>©Ernst Christoph Leschka</h6>";
+            echo "<p class='cpr'>©Ernst Christoph Leschka</p>";
             echo "<p class='date'>Dnešní datum: $date</p>";
         ?>
     </footer>
