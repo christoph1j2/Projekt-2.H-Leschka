@@ -96,7 +96,7 @@
         <section class="forms">
             <!-- hodnocení -->
             <form method="get">
-                <label for="hodnoceni">Ohodnoť číslem od 1 do 10</label>
+                <label for="hodnoceni">Ohodnoť číslem od 1 do 10</label><br>
                 <input type="number" id="hodnoceni" name="hodnoceni" min="1" max="10"><br>
                 <input type="submit" value="Odeslat" name="send1">
                 <input type="submit" value="Vypsat" name="print1">
