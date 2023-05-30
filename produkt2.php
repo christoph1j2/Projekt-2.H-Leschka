@@ -13,29 +13,31 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <h1>Sklad</h1>
+        <img src="logo.png" alt="logo" id="logo">
+        <h1>Sklad™</h1>
         <?php
             $date = date('d-m-Y');
-            echo "<p class='date'>Dnešní datum: $date</p>"
+            echo "<p class='date date-right'>Dnešní datum: $date</p>"
         ?>
     </header>
     <nav>
-        <a href="index.php">Home</a>
-        <a href="produkt1.php">produkt1</a>
-        <a href="produkt2.php">produkt2</a>
-        <a href="produkt3.php">produkt3</a>
-        <a href="produkt4.php">produkt4</a>
+        <ul>
+        <li><a href="index.php"><img src="home.png"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+        </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
         <section>
             <div class="container">
             <article>
-                <p>popis</p>
+                <p>V dnešním digitálním světě jsou telefony nezbytnou součástí našeho každodenního života. V Skladu™ chápeme, že kvalitní prezentace telefonů je klíčová pro zaujetí zákazníků a vytvoření důvěry v jejich kvalitu a funkčnost. Naše skladové prostory poskytují ideální prostředí pro vystavení telefonů a umožňují zákazníkům si je prohlédnout a vyzkoušet přímo na místě. S pomocí Skladu™ můžete prezentovat různé značky, modely a technologické inovace, které telefonní trh nabízí. Vytvořte svým zákazníkům nezapomenutelný zážitek při prohlížení a výběru telefonů v našem skladu.</p>
             </article>
             <article>
-                <p>popis</p>
+                <p>V Skladu™ chceme, aby vaše telefony zaujaly a upoutaly zraky zákazníků již na první pohled. Proto jsme navrhli skladové prostory tak, aby byly esteticky příjemné, dobře osvětlené a nabízely pohodlné prostory pro prohlížení telefonů. Díky tomu zákazníci mohou vidět a dotknout se nejnovějších modelů, rozhraní a funkcí přímo ve vašem skladu. Ať už nabízíte chytré telefony, telefonní příslušenství nebo novinky v mobilním světě, Sklad™ je prostorem, který vám umožní prezentovat je s jasným záměrem a profesionálním přístupem. Připravte se na rostoucí zájem zákazníků.</p>
             </article>
             </div>
         </section>

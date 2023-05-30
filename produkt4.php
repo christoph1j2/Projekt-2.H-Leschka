@@ -13,29 +13,31 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <h1>Sklad</h1>
+        <img src="logo.png" alt="logo" id="logo">
+        <h1>Sklad™</h1>
         <?php
             $date = date('d-m-Y');
-            echo "<p class='date'>Dnešní datum: $date</p>"
+            echo "<p class='date date-right'>Dnešní datum: $date</p>"
         ?>
     </header>
     <nav>
-        <a href="index.php">Home</a>
-        <a href="produkt1.php">produkt1</a>
-        <a href="produkt2.php">produkt2</a>
-        <a href="produkt3.php">produkt3</a>
-        <a href="produkt4.php">produkt4</a>
+        <ul>
+        <li><a href="index.php"><img src="home.png"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+        </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
         <section>
             <div class="container">
             <article>
-                <p>popis</p>
+                <p>Sluchátka jsou nedílnou součástí moderního života plného hudby, podcastů a hands-free komunikace. V Skladu™ si uvědomujeme, že kvalitní prezentace sluchátek je klíčová pro zaujetí zákazníků a přesvědčení je o výjimečném zvuku, pohodlí a designu. Naše skladové prostory jsou speciálně navrženy tak, aby vytvářely prostředí, které nejen ukazuje sluchátka v jejich plné kráse, ale také umožňuje zákazníkům je vyzkoušet a posoudit jejich zvukovou kvalitu, pohodlí při nošení a funkčnost. V Skladu™ můžete vystavit různé typy sluchátek, od bezdrátových po noise-cancelling.</p>
             </article>
             <article>
-                <p>popis</p>
+                <p>Sklad™ vám nabízí prostor, který vám umožní vytvořit atraktivní prezentace sluchátek a přilákat zákazníky svým sortimentem. Naše skladové prostory jsou pečlivě navrženy s důrazem na optimální osvětlení, estetiku a prostorové uspořádání, abyste mohli prezentovat sluchátka tak, jak si zaslouží. Můžete vytvořit výstavní prostor, který zákazníky okouzlí a umožní jim prozkoumat různé značky, styly a technologie sluchátek, které máte k dispozici. Zákazníci budou mít možnost si sluchátka vyzkoušet, porovnat jejich výhody a vybrat si ty, které jim poskytnou dokonalý zvukový zážitek.</p>
             </article>
             </div>
         </section>

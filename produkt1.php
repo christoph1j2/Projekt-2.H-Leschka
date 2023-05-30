@@ -13,29 +13,31 @@
 </head>
 <body>
     <header>
-        <img src="" alt="logo">
-        <h1>Sklad</h1>
+        <img src="logo.png" alt="logo" id="logo">
+        <h1>Sklad™</h1>
         <?php
             $date = date('d-m-Y');
-            echo "<p class='date'>Dnešní datum: $date</p>"
+            echo "<p class='date date-right'>Dnešní datum: $date</p>"
         ?>
     </header>
     <nav>
-        <a href="index.php">Home</a>
-        <a href="produkt1.php">produkt1</a>
-        <a href="produkt2.php">produkt2</a>
-        <a href="produkt3.php">produkt3</a>
-        <a href="produkt4.php">produkt4</a>
+        <ul>
+        <li><a href="index.php"><img src="home.png"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+        </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
         <section>
             <div class="container">
             <article>
-                <p>popis</p>
+                <p>Boty jsou základním a nezbytným prvkem ve světě módy. V Skladu™ chápeme, jak důležité je mít širokou a kvalitní nabídku bot, která osloví různé vkusy a preference zákazníků. Naše skladové prostory vám umožňují prezentovat boty v jejich plné kráse a zajistit, aby každý detail byl viditelný a dostupný pro prohlížení. Bez ohledu na to, zda nabízíte tenisky, kozačky, sandály nebo elegantní obuv, Sklad™ vám poskytuje prostředí, ve kterém můžete maximálně vyniknout a přitáhnout zákazníky.</p>
             </article>
             <article>
-                <p>popis</p>
+                <p>V Skladu™ víme, že boty jsou mnohem víc než jen obuv. Jsou to módní doplňky, které vyjadřují osobnost a styl. Proto dáváme velký důraz na to, aby vaše boty byly prezentovány tak, aby zákazníci měli přesnou představu o jejich designu, materiálech a detailu. Díky našim skladovým prostorům budou boty pečlivě uspořádány a vystaveny tak, aby zákazníci mohli prozkoumat každý pár a ocenit jeho jedinečnost. Bez ohledu na to, zda jsou vaše boty sportovní, elegantní nebo odvážné, v Skladu™ najdete ideální místo pro jejich prezentaci a zaujetí zákazníků.</p>
             </article>
             </div>
         </section>
