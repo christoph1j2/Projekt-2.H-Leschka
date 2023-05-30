@@ -11,13 +11,13 @@
     border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #535353; /* Change to your desired hover color */
+    background-color: #535353;
   }
   ::-moz-scrollbar-track {
-    background-color: #000000; /* Change to your desired color */
+    background-color: #000000;
   }
   ::-moz-scrollbar-thumb {
-    background-color: #bbbbbb; /* Change to your desired color */
+    background-color: #bbbbbb;
   }
 body{
     background-color: rgb(238, 238, 238);
@@ -60,18 +60,28 @@ ul{
 }
 li{
     text-align: center;
+    justify-items: center;
+    display: inline-flex;
+    margin: auto;
 }
-a:link{
+li img{
+    height: 3rem;
+    width: auto;
+    padding: 5px;
+    background-color: #1677b8;
+    border-radius: 20px
+}
+nav a:link{
     text-decoration: none;
     margin: 5px;
 }
-a:visited{
+nav a:visited{
     text-decoration: none;
     color: white;
 }
-a:hover{
+nav a:hover{
     font-weight: bolder;
-    background-color: #008d3d73;
+    background-color: #0082d873;
     padding: 4px;
     border-radius: 10px;
 }
@@ -85,12 +95,34 @@ nav {
     display: flex;
     justify-content:space-around;
 }
+.product {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+} 
+.product a:hover img{
+    box-shadow: 5px 5px 5px 5px #008cff;
+}
+.container.product p{
+    padding: 2rem;
+}
 .container h2, .container p{
     background-color: #0961a8;
     padding: 1rem;
     color: white;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.575);
     width: 500px;
+    height: auto;
+}
+.container p{
+    height: 250px;
+}
+.container img{
+    width: 500px;
+    height: auto;
+    border-radius: 1rem 110px 1rem 110px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .desc{
     background-color: #001c33;
@@ -138,4 +170,14 @@ input[type="submit"]{
 input[type="submit"]:hover{
     padding: 7px;
     background-color: rgb(187, 230, 255);
+}
+footer{
+    background-color: #034a85;
+    color: #bbbbbb;
+    border-radius: 0px 0px 1rem 1rem;
+    text-align: center;
+    padding: 0.25rem;
+}
+.cpr, .date2{
+    font-weight: 100;
 }

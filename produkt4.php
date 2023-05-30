@@ -2,6 +2,7 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <link rel="Website Icon" href="logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ernst Christoph Leschka">
@@ -50,7 +51,7 @@
     <footer>
         <?php
             echo "<p class='cpr'>©Ernst Christoph Leschka</p>";
-            echo "<p class='date'>Dnešní datum: $date</p>";
+            echo "<p class='date2'>Dnešní datum: $date</p>";
         ?>
     </footer>
 </body>
