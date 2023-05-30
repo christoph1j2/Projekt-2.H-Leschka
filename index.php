@@ -39,7 +39,7 @@
                 </article>
                 <article>
                     <h2>Jak fungujeme?</h2>
-                    <p>Využíváme nejmodernější technologie, abyste mohli snadno a přehledně prezentovat vaše boty, mikiny, telefony a sluchátka. Každý kus zboží je pečlivě uspořádán a zobrazen, takže potenciální zákazníci mohou získat přesnou představu o dostupných produktech. S naší intuitivní online platformou můžete snadno aktualizovat a spravovat inventář, přidávat nové produkty a sdílet detailní informace včetně fotografií a popisů. Vaše produkty budou prezentovány atraktivním a profesionálním způsobem, který přiláká zákazníky a pomůže vám získat konkurenční výhodu.</p>
+                    <p>Využíváme nejmodernější technologie, abyste mohli snadno a přehledně prezentovat vaše boty, mikiny, telefony a sluchátka. Každý kus zboží je pečlivě uspořádán a zobrazen, takže potenciální zákazníci mohou získat přesnou představu o dostupných produktech. S naší intuitivní online platformou můžete snadno aktualizovat inventář a sdílet detailní informace včetně fotografií a popisů. Vaše produkty budou prezentovány atraktivním a profesionálním způsobem, který přiláká zákazníky a pomůže vám získat konkurenční výhodu.</p>
                 </article>
                 <article>
                     <h2>Proč existujeme?</h2>
@@ -53,7 +53,7 @@
         <section class="desc top">
             <div class="container product">
             <article>
-                <p>Naše běžecké boty kombinují inovativní technologie a komfortní design, aby vám poskytly nejlepší běžecký zážitek. Odlehčený materiál a pružná podrážka zajišťují optimální odraz a odstranění nárazů, zatímco prodyšný svršek udržuje vaše nohy suché a pohodlné. Nezáleží na tom, zda jste začátečník nebo zkušený běžec, naše běžecké boty vám pomohou dosáhnout vašich cílů a překonat své limity. Objevte výkon, pohodlí a styl ve svých krocích s našimi běžeckými botami.</p>
+                <p>Naše běžecké <strong>boty</strong> kombinují inovativní technologie a komfortní design, aby vám poskytly nejlepší běžecký zážitek. Odlehčený materiál a pružná podrážka zajišťují optimální odraz a odstranění nárazů, zatímco prodyšný svršek udržuje vaše nohy suché a pohodlné. Nezáleží na tom, zda jste začátečník nebo zkušený běžec, naše běžecké boty vám pomohou dosáhnout vašich cílů a překonat své limity. Objevte výkon, pohodlí a styl ve svých krocích s našimi běžeckými botami.</p>
             </article>
             <article>
                 <a href="produkt1.php"><img src="boty.png" alt="produkt1"></a>
@@ -67,7 +67,7 @@
                 <a href="produkt2.php"><img src="telefony.png" alt="produkt2"></a>
             </article>
             <article>
-                <p>Naše telefony přinášejí technologii do vašich rukou, spojujíce výkon, inovace a stylový design. S jasným a ostrým displejem, vysokým výkonem procesoru a vylepšenými kamerami zachytíte každý okamžik v  neuvěřitelné kvalitě. Pohotové připojení k internetu a rychlé načítání aplikací vám umožní být stále propojeni s digitálním světem.  Ať už jde o práci, zábavu nebo komunikaci, naše telefony vám poskytnou nejlepší uživatelský zážitek. Vstupte do světa neomezených možností a objevte, co všechno můžete s našimi špičkovými telefony dokázat.</p>
+                <p>Naše <strong>telefony</strong> přinášejí technologii do vašich rukou, spojujíce výkon, inovace a stylový design. S jasným a ostrým displejem, vysokým výkonem procesoru a vylepšenými kamerami zachytíte každý okamžik v  neuvěřitelné kvalitě. Pohotové připojení k internetu a rychlé načítání aplikací vám umožní být stále propojeni s digitálním světem.  Ať už jde o práci, zábavu nebo komunikaci, naše telefony vám poskytnou nejlepší uživatelský zážitek. Vstupte do světa neomezených možností a objevte, co všechno můžete s našimi špičkovými telefony dokázat.</p>
             </article>
             </div>
         </section>
@@ -75,7 +75,7 @@
         <section class="desc">
             <div class="container product">
             <article>
-                <p>Naše mikiny jsou spojením pohodlí, stylu a kvality, které vás zahřejí a zároveň vám dodají trendový vzhled. S měkkým a příjemným materiálem se stanou vašimi nejoblíbenějšími společníky na každodenních dobrodružstvích. Nezáleží, zda si vyberete klasický střih nebo moderní design, naše mikiny nabízejí širokou paletu barev a vzorů, které ladí s vaším osobním stylem. Kvalitní provedení a precizní detaily zajišťují jejich dlouhou životnost a stále skvělý vzhled. Přidejte si pohodlí a styl do svého šatníku s našimi atraktivními mikinami.</p>
+                <p>Naše <strong>mikiny</strong> jsou spojením pohodlí, stylu a kvality, které vás zahřejí a zároveň vám dodají trendový vzhled. S měkkým a příjemným materiálem se stanou vašimi nejoblíbenějšími společníky na každodenních dobrodružstvích. Nezáleží, zda si vyberete klasický střih nebo moderní design, naše mikiny nabízejí širokou paletu barev a vzorů, které ladí s vaším osobním stylem. Kvalitní provedení a precizní detaily zajišťují jejich dlouhou životnost a stále skvělý vzhled. Přidejte si pohodlí a styl do svého šatníku s našimi atraktivními mikinami.</p>
             </article>
             <article>
                 <a href="produkt3.php"><img src="mikina.png" alt="produkt3"></a>
@@ -89,7 +89,7 @@
                 <a href="produkt4.php"><img src="sluchatka.jpg" alt="produkt4"></a>
             </article>
             <article>
-                <p>Představujeme vám nejnovější revoluci ve světě poslechu hudby - bezdrátová sluchátka, která vám přináší absolutní zvukovou kvalitu a neomezenou volnost pohybu. S našimi nejmenovanými sluchátky se poslech hudby stává neuvěřitelným zážitkem plným detailů a emocí. Naše sluchátka jsou vybavena nejmodernějšími zvukovými technologiemi, které vám umožní prožít každou notu s naprostou precizností. Zvukový výkon je plný bohatých basů, živých středních frekvencí a jasných výšek. Staňte se součástí hudby a nechte se unést do světa nekonečných melodií.</p>
+                <p>Představujeme vám nejnovější revoluci ve světě poslechu hudby - <strong> sluchátka</strong>, která vám přináší absolutní zvukovou kvalitu a neomezenou volnost pohybu. S našimi nejmenovanými sluchátky se poslech hudby stává neuvěřitelným zážitkem plným detailů a emocí. Naše sluchátka jsou vybavena nejmodernějšími zvukovými technologiemi, které vám umožní prožít každou notu s naprostou precizností. Zvukový výkon je plný bohatých basů, živých středních frekvencí a jasných výšek. Staňte se součástí hudby a nechte se unést do světa nekonečných melodií.</p>
             </article>
             </div>
         </section>
