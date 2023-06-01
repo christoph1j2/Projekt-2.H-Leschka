@@ -43,8 +43,18 @@
             </div>
         </section>
         <section class="forms">
-            <!-- select + print (2 prvky formuláře) -->
-            <form>
+            <form method="get">
+                <h3>Přidat nový pár bot:</h3>
+                <label for="znacka">Značka:</label>
+                <input type="text" name="znacka" id="znacka" required><br>
+                <label for="cena">Cena:</label>
+                <input type="number" name="cena" id="cena" min="50" max="10000" required><br>
+                <label for="popis">Popis:</label>
+                <input type="text" name="popis" id="popis"><br>
+                <input type="submit" name="pridat" value="Přidat">
+            </form>
+            <form method="get">
+                <h3>Výpis produktů:</h3>
                 
             </form>
             <!-- tabulka s výpisem -->
@@ -71,4 +81,24 @@
         die("Connection failed: ".$conn->connect_error);
     }
 
+    if(isset($_GET["pridat"])){
+        $znacka = $_GET["znacka"];
+        $cena = $_GET["cena"];
+        $popis = $_GET["popis"];
+        $sql = "INSERT INTO produkty (ID_kategorie, znacka, cena, popis) VALUES ('1', '$znacka', '$cena', '$popis')";
+
+        if($conn->query($sql) === TRUE) {
+            echo "<script>
+                    setTimeout(function() {
+                        alert('Záznam úspěšně zapsán.');
+                    }, 100);
+                    </script>";
+        }else{
+            echo "<script>
+                    setTimeout(function() {
+                        alert('Chyba při přidávání záznamu: '.$conn->error);
+                    }, 100);
+                    </script>";
+        }
+    }
 ?>
