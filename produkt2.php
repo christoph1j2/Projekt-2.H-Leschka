@@ -5,6 +5,7 @@
     <link rel="Website Icon" href="logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="author" content="Ernst Christoph Leschka, Matěj Horešovský, Adam Kolerus">    <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="description" content="Stránka jednoho z produktů pro webovou aplikaci neexistujícího skladu.">
     <link rel="stylesheet" href="style.css">
@@ -57,3 +58,4 @@
         ?>
     </footer>
 </body>
+</html>

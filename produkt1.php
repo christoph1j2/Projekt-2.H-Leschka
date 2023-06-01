@@ -45,7 +45,7 @@
         <section class="forms">
             <!-- select + print (2 prvky formuláře) -->
             <form>
-
+                
             </form>
             <!-- tabulka s výpisem -->
             <!-- TODO -->
@@ -58,3 +58,17 @@
         ?>
     </footer>
 </body>
+</html>
+
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "sklad";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if ($conn->connect_error){
+        die("Connection failed: ".$conn->connect_error);
+    }
+
+?>
