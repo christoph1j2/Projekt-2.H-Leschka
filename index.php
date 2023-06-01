@@ -22,11 +22,11 @@
     </header>
     <nav>
         <ul>
-        <li><a href="index.php"><img src="home.png"></a></li>
-        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
-        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
-        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
-        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+        <li><a href="index.php"><img src="home.png" alt="home"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png" alt="sneakers"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png" alt="smartphone"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png" alt="sweatshirt"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png" alt="headphones"></a></li>
         </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
@@ -112,6 +112,107 @@
                 <input type="submit" value="Vypsat" name="print2">
             </form>
         </section>
+        <section class="forms">
+        <?php
+                if(isset($_GET["send1"])) {
+                    $hodnoceni = $_GET['hodnoceni'];
+
+                    if(!empty($hodnoceni)){
+                                $fileHodnoceni = 'hodnoceni.txt';
+                    $fileExists = file_exists($fileHodnoceni);
+
+                    if ($fileExists) {
+                        $fileHodnoceni = fopen($fileHodnoceni, 'a');
+                    } else {
+                        $fileHodnoceni = fopen($fileHodnoceni, 'w');
+                    }
+
+                    fwrite($fileHodnoceni,$hodnoceni . "\n");
+                    fclose($fileHodnoceni);
+
+                    echo "<script>
+                    setTimeout(function() {
+                        alert('Hodnota úspěšně zapsána.');
+                    }, 100);
+                    </script>";
+                } else {
+                    echo "<script>
+                    setTimeout(function() {
+                        alert('Nebyla zadána žádná hodnota.');
+                    }, 100);
+                    </script>";
+                }
+            }
+            if(isset($_GET["print1"])) {
+                $fileHodnoceni = 'hodnoceni.txt';
+
+                if(file_exists($fileHodnoceni)){
+                $hodnoty = file('hodnoceni.txt',FILE_IGNORE_NEW_LINES);
+                $sum = 0;
+
+                foreach($hodnoty as $item){
+                    $sum = $sum+$item;
+                }
+
+                $avg = $sum / count($hodnoty);
+                echo "<p>Průměrné hodnocení: ".round($avg,2)."</p>";
+            } else { echo "<p>Neexistují žádná hodnocení.</p>"; }
+        }
+        ?>
+        <?php
+            if(isset($_GET["send2"])) {
+                $anketa = $_GET["anketa"];
+                if(!empty(["anketa"])){
+                    $fileAnketa = 'anketa.txt';
+                    $fileExists = file_exists($fileAnketa);
+
+                    if ($fileExists) {
+                        $fileAnketa = fopen($fileAnketa, 'a');
+                    } else {
+                        $fileAnketa = fopen($fileAnketa, 'w');
+                    }
+
+                    fwrite($fileAnketa,$anketa . "\n");
+                    fclose($fileAnketa);
+                    echo "<script>
+                    setTimeout(function() {
+                        alert('Hodnota úspěšně zapsána.');
+                    }, 100);
+                    </script>";
+                }else{
+                    echo "<script>
+                    setTimeout(function() {
+                        alert('Nebyla vybrána žádná hodnota.');
+                    }, 100);
+                    </script>";
+                }
+            }
+            if (isset($_GET["print2"])) {
+                $fileAnketa = 'anketa.txt';
+            
+                if (file_exists($fileAnketa)) {
+                    $hodnoty = file($fileAnketa, FILE_IGNORE_NEW_LINES);
+                    $email = 0;
+                    $mobil = 0;
+                    $reklama = 0;
+            
+                    foreach ($hodnoty as $item) {
+                        if ($item == 'email') {
+                            $email++;
+                        } elseif ($item == 'mobil') {
+                            $mobil++;
+                        } elseif ($item == 'reklama') {
+                            $reklama++;
+                        }
+                    }
+            
+                    echo "<p>E-Mail byl zvolen " . $email . "krát.<br>Mobil byl zvolen " . $mobil . "krát.<br>Reklama byla zvolena " . $reklama . "krát.</p>";
+                } else {
+                    echo "<p>Neexistují žádné hodnoty z ankety.</p>";
+                }
+            }
+            ?>
+        </section>
     </main>
     <footer>
         <?php
@@ -121,3 +222,4 @@
     </footer>
 </body>
 </html>
+

@@ -5,11 +5,10 @@
     <link rel="Website Icon" href="logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ernst Christoph Leschka">
-    <meta name="keywords" content="produkt,projekt,sklad,explore">
+    <meta name="author" content="Ernst Christoph Leschka, Matěj Horešovský, Adam Kolerus">    <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="description" content="Stránka jednoho z produktů pro webovou aplikaci neexistujícího skladu.">
     <link rel="stylesheet" href="style.css">
-    <title>Produkt4</title>
+    <title>Sluchátka</title>
 </head>
 <body>
     <header>
@@ -21,18 +20,19 @@
         ?>
     </header>
     <nav>
-        <ul>
-        <li><a href="index.php"><img src="home.png"></a></li>
-        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
-        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
-        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
-        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+    <ul>
+        <li><a href="index.php"><img src="home.png" alt="home"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png" alt="sneakers"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png" alt="smartphone"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png" alt="sweatshirt"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png" alt="headphones"></a></li>
         </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
         <section>
-            <div class="container">
+        <h2 id="product_header">Sluchátka</h2>
+            <div class="container product">
             <article>
                 <p>Sluchátka jsou nedílnou součástí moderního života plného hudby, podcastů a hands-free komunikace. V Skladu™ si uvědomujeme, že kvalitní prezentace sluchátek je klíčová pro zaujetí zákazníků a přesvědčení je o výjimečném zvuku, pohodlí a designu. Naše skladové prostory jsou speciálně navrženy tak, aby vytvářely prostředí, které nejen ukazuje sluchátka v jejich plné kráse, ale také umožňuje zákazníkům je vyzkoušet a posoudit jejich zvukovou kvalitu, pohodlí při nošení a funkčnost. V Skladu™ můžete vystavit různé typy sluchátek, od bezdrátových po noise-cancelling.</p>
             </article>

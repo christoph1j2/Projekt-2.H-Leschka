@@ -109,6 +109,9 @@ nav {
 .container.product p{
     padding: 2rem;
     height: auto;
+    margin: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 .container h2, .container p{
     background-color: #0961a8;
@@ -127,6 +130,19 @@ nav {
     border-radius: 1rem 110px 1rem 110px;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+#product_header{
+    text-align: center;
+    background-color: #0462af;
+    color: white;
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.575);
 }
 .desc{
     background-color: #001c33;
@@ -150,6 +166,13 @@ nav {
 .forms{
     display: flex;
     justify-content: center;
+}
+.forms p {
+    background-color: #0860a8;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.575);
+    color: white;
 }
 form:first-child{
     text-align: center;

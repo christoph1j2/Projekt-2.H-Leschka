@@ -5,11 +5,11 @@
     <link rel="Website Icon" href="logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ernst Christoph Leschka">
+    <meta name="author" content="Ernst Christoph Leschka, Matěj Horešovský, Adam Kolerus">
     <meta name="keywords" content="produkt,projekt,sklad,explore">
     <meta name="description" content="Stránka jednoho z produktů pro webovou aplikaci neexistujícího skladu.">
     <link rel="stylesheet" href="style.css">
-    <title>Produkt1</title>
+    <title>Boty</title>
 </head>
 <body>
     <header>
@@ -22,17 +22,18 @@
     </header>
     <nav>
         <ul>
-        <li><a href="index.php"><img src="home.png"></a></li>
-        <li><a href="produkt1.php"><img src="sneakers.png"></a></li>
-        <li><a href="produkt2.php"><img src="smartphone-call.png"></a></li>
-        <li><a href="produkt3.php"><img src="sweatshirt.png"></a></li>
-        <li><a href="produkt4.php"><img src="headphones.png"></a></li>
+        <li><a href="index.php"><img src="home.png" alt="home"></a></li>
+        <li><a href="produkt1.php"><img src="sneakers.png" alt="sneakers"></a></li>
+        <li><a href="produkt2.php"><img src="smartphone-call.png" alt="smartphone"></a></li>
+        <li><a href="produkt3.php"><img src="sweatshirt.png" alt="sweatshirt"></a></li>
+        <li><a href="produkt4.php"><img src="headphones.png" alt="headphones"></a></li>
         </ul>
         <!-- DOPLNIT PRODUKTY! -->
     </nav>
     <main>
         <section>
-            <div class="container">
+            <h2 id="product_header">Boty</h2>
+            <div class="container product">
             <article>
                 <p>Boty jsou základním a nezbytným prvkem ve světě módy. V Skladu™ chápeme, jak důležité je mít širokou a kvalitní nabídku bot, která osloví různé vkusy a preference zákazníků. Naše skladové prostory vám umožňují prezentovat boty v jejich plné kráse a zajistit, aby každý detail byl viditelný a dostupný pro prohlížení. Bez ohledu na to, zda nabízíte tenisky, kozačky, sandály nebo elegantní obuv, Sklad™ vám poskytuje prostředí, ve kterém můžete maximálně vyniknout a přitáhnout zákazníky.</p>
             </article>
